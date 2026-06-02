@@ -162,6 +162,6 @@ This project is licensed for **educational purposes only**.
 
 Thanks to open‑source communities and MERN documentation for guidance and learning support.
 
----
+--- Author - Raj Prajapati
 
 ⭐ *If you like this project, don’t forget to star the repository!*
