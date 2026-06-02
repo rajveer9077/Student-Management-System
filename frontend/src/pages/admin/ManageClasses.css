@@ -1,0 +1,82 @@
+#manage-classes-main{
+    width: 80%;
+    margin: auto;
+    margin-top: 50px;
+}
+#manage-classes-top{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 80px;
+}
+#manage-classes-top>button{
+    height: 60%;
+    width: 12%;
+    background-color: rgb(10, 221, 10);
+    cursor: pointer;
+    font-size: 18px;
+    font-weight: bold;
+}
+#classes-cards{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 50px;
+    margin-top: 50px;
+    margin-bottom: 100px;
+}
+#classes-cards>div{
+    width: 25%;
+    min-width: 300px;
+    height: 300px;
+    box-shadow: 0px 4px 32px rgba(0,0,0,0.2);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 40px;
+    font-size: 25px;
+    font-weight: bold;
+}
+#add-class-pop-up{
+    position: absolute;
+    top: 80px;
+    background-color: rgba(0,0,0,0.9);
+    height: 98vh;
+    width: 99vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#add-class-pop-up>div{
+    height: 50%;
+    width: 30%;
+    box-shadow: 0px 4px 18px black;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+    gap: 40px;
+}
+#add-class-pop-up>div>h1{
+    margin-top: 50px;
+    font-size: 30px;
+    color: rgb(32, 68, 246);
+}
+#add-class-pop-up>div>input{
+    width: 70%;
+    height: 30px;
+    font-size: 20px;
+    font-weight: bold;
+    color: black;
+}
+#add-class-pop-up>div>div>label{
+    font-size: 20px;
+    display: flex;
+    gap: 5px;
+    align-items: center;
+}
+#add-class-pop-up>div>div>label>input{
+    height: 30px;
+    width: 20px;
+}

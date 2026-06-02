@@ -1,0 +1,77 @@
+#manage-subjects-main{
+    width: 80%;
+    margin: auto;
+    margin-top: 50px;
+}
+#manage-subjects-top{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100px;
+}
+#manage-subjects-top>button{
+    height: 60%;
+    width: 12%;
+    background-color: rgb(10, 221, 10);
+    cursor: pointer;
+    font-size: 18px;
+    font-weight: bold;
+}
+#subjects-cards{
+    display: flex;
+    gap: 50px;
+    margin-top: 50px;
+    flex-wrap: wrap;
+}
+#subjects-cards>div{
+    width: 15%;
+    min-width: 300px;
+    height: 100px;
+    box-shadow: 0px 4px 16px rgba(0,0,0,0.2);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 15px;
+}
+
+#manage-subjects-pop-up{
+    position: absolute;
+    top: 85px;
+    left: 0px;
+    background-color: rgba(0, 0, 0, 0.8);
+    height: 89vh;
+    width: 99vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#manage-subjects-pop-up>div{
+    height: 25%;
+    width: 20%;
+    box-shadow: 0px 4px 16px rgba(0,0,0,0.8);
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+}
+#manage-subjects-pop-up>div>h1{
+    color: rgb(14, 49, 250);
+    font-size: 36px;
+    margin-top: -10px;
+}
+#manage-subjects-pop-up>div>input{
+    width: 80%;
+    height: 30px;
+    font-size: 20px;
+}
+#manage-subjects-pop-up>div>button{
+    width: 60%;
+    height: 25px;
+    background-color: red;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+}
